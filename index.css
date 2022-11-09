@@ -5,23 +5,23 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 }
 
 header{
-  width: 100%;
+  width: 100vw;
   height: 4em;
   background-color: white;
   box-shadow: 0 0 30px rgb(0 0 0 / 7%);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 8em;
 }
 
 .navigator {
   display: flex;
   align-items: center;
+  margin-left: 6rem;
 }
 
 .navigator_content {
-  margin-left: 2em;
+  margin-left: 2rem;
   cursor: pointer;
 }
 
@@ -94,11 +94,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .content .content_box {
-  width: 60%;
+  width: 60rem;
   height: 12em;
   border-radius: 2em;
   box-shadow: 0 0 30px rgb(0 0 0 / 7%);
