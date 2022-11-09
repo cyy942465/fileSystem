@@ -150,10 +150,14 @@ section {
   justify-content: center;
   text-decoration: none;
   width: 4em;
-  color: #fff;
-  font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.content_footer .download a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .content_footer .download:hover {
