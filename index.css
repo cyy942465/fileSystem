@@ -17,7 +17,7 @@ header{
 .navigator {
   display: flex;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 4rem;
 }
 
 .navigator_content {
@@ -59,7 +59,7 @@ section {
 
 .input input {
   height: 3em;
-  width: 30em;
+  width: 30rem;
   border-radius: 4px;
   border: 1px solid #dcdfe6;
   outline: 0;
@@ -98,7 +98,7 @@ section {
 }
 
 .content .content_box {
-  width: 60rem;
+  width: 50rem;
   height: 12em;
   border-radius: 2em;
   box-shadow: 0 0 30px rgb(0 0 0 / 7%);
