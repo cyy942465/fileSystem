@@ -54,12 +54,13 @@ section {
 }
 
 .input {
+  width: 50%;
   display: flex;
 }
 
 .input input {
   height: 3em;
-  width: 30rem;
+  width: 90%;
   border-radius: 4px;
   border: 1px solid #dcdfe6;
   outline: 0;
