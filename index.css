@@ -40,9 +40,9 @@ header .img_container {
 }
 
 section {
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding: 0 20em;
   margin-top: 1em;
   flex-direction: column;
 }
@@ -98,7 +98,7 @@ section {
 }
 
 .content .content_box {
-  width: 80%;
+  width: 60%;
   height: 12em;
   border-radius: 2em;
   box-shadow: 0 0 30px rgb(0 0 0 / 7%);
